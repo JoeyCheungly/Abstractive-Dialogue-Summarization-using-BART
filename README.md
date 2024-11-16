@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # Abstractive Dialogue Summarization using BART
+=======
+# DATA7903 Capstone Project 2
+Author: Lok Yee Joey Cheung
+>>>>>>> 5403fb6 (Update)
 
 ## Overview
 This project focuses on automating this process by using pre-trained large language model, BART, for dialogue summarization. BART is a powerful pre-trained model used for summarizaing structured text like news articles and journals (Lewis et al., 2019). The aim of this project is to fine-tune the model to better handle conversational data and to improve the accuracy and coherence of dialogue summaries. 
@@ -22,10 +27,14 @@ Here is a brief overview of the files included in this project:
 - For BART implementation:
 `pip install -r requirements_BART.txt`
 
+2. Set Up the Environments for BART and RNN Implementations:
+- For BART implementation:
+`pip install -r requirements_BART.txt`
+
 - For RNN implementation:
 `pip install -r requirements_RNN.txt`
 
-2. Activate BART environment and run the files. For instance,
+3. Activate BART environment and run the files. For instance,
 - Run Python files: `python BART.py`
 - Run ipynb files by starting jupyter notebook interface: `jupyter notebook`
 
